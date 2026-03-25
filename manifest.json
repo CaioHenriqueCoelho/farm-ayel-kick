@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Farm Live Ayel",
+  "version": "1.0",
+  "description": "Fica digitando igual retardado",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
